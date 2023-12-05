@@ -1,0 +1,50 @@
+.contain {
+
+    background-color: powderblue;
+}
+
+.list-item{
+  color: darkred;
+  padding: 5px;
+}
+
+
+/* index1.html  */
+
+/* .boxes-box-1{
+  width:25%;
+  background-color: lightslategray;  
+  float: left;
+}
+
+.boxes-box-2{
+ width:25%;
+  background-color: lightslategray;  
+  float: right;
+}
+
+.boxes-box-3{
+  width:25%;
+   background-color: lightslategray;  
+   float: right;
+ } */
+
+div{
+  display: inline-block;
+    background-color: lightslategray;  
+    border: 10px solid green;
+    padding: 40px;
+    margin: 20px;
+}
+
+body{
+  background: lightblue;
+  width: 620px;
+  height: 620px;
+  text-align: center;
+}
+
+.container{
+  background: lightgreen;
+  text-align: center;
+}
