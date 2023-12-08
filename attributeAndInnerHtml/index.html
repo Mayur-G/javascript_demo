@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Set Attribute</title>
+</head>
+<body>
+
+<!-- we can give style using this tag 
+<style>
+
+</style>
+-->
+
+
+    <!-- Get Set Attribute console -->
+    <h1 id="h1" style="color: blue" class="myClass" contenteditable="true">A heading</h1>
+
+    <h1 id="h2" contenteditable>A heading</h1>
+
+    <br>
+
+    <div id="main">
+        <p>Paragraph 1</p>
+        <p title="Paragraph 2">Paragraph 2</p>
+     </div>
+
+     <br>
+     <br>
+
+     <!-- innerHtml only for console -->
+
+     <p id="myP">   This element has extra spacing     and contains <span>a span element</span>.</p>
+
+     <br>
+     <br>
+     <br>
+     <br>
+
+      <!-- use pre not p  -->
+    <pre id="demo">JavaScript can change HTML content.</pre>
+    <button onclick="getinnerHTML()">Get innerHTML</button>
+    <button onclick="getinnerText()">Get innerText</button>
+    <button onclick="gettextContent()">Get textContent</button>
+
+
+    <script src = "index.js"></script>
+</body>
+</html>
